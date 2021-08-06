@@ -1,0 +1,259 @@
+/* upper nav bar start */
+body{
+    overflow-x: hidden;
+}
+#accordian .upper-nav .upper-nav-detail .left-upper ul li{
+    width: 25%;
+    word-wrap: break-word;
+
+}
+.upper-nav{
+    background-color: orangered;
+    color:white;
+}
+.right-upper{
+    flex: 1;
+}
+.left-upper{
+    width:90%;
+    margin:1rem 2rem;
+
+}
+.hide-nav{
+    background-color: orangered;
+    height:1.5rem;
+}
+.fa-chevron-up{
+    background-color: orangered;
+    color: white;
+
+}
+.left-upper a{
+     color:white;
+} 
+.left-upper a:hover{
+    text-decoration: none;
+    color:white;
+}
+.fa-facebook-f,.fa-twitter{
+    color:black;
+}
+.fa-facebook-f:hover,.fa-twitter:hover{
+    background-color: blue;
+    color:white;
+}
+.icon{
+    border-radius:50px;
+}
+.icon:hover{
+    background-color: blue;
+    color:white;
+}
+
+/* upper nav bar end here */
+
+/* second nvigtion section start */
+.logo{
+width:6rem;
+}
+
+.left{
+    width:20%;
+    text-align: center;
+}
+.right{
+    display: flex;
+} 
+
+.fa-search{
+margin-left:1rem;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+     /* remove the gap so it doesn't close */
+ }
+.nav-link:hover{
+color:black;
+font-weight: bold;
+}
+/* second navigation end */
+/* animation slidng start */
+.back-imag1,.back-imag2{
+height:80vh;
+}
+.lemon-img,.cock-img{
+    height:22rem;
+    width:7rem;
+}
+.carousel-caption h2{
+font-size:34px;
+color:orangered; 
+}
+.carousel-caption p{
+    color:white; 
+    }
+ .content1{
+     height: 40vh;
+
+ }
+ .images{
+     height: 50vh;
+ }
+ 
+/* animation sliding end */
+
+/*  aims cards start */
+.info-link{
+    color:#4D4650;
+    font-size:1rem;
+}
+.info-link:hover{
+    color:black;
+    text-decoration: none;
+}
+.aim-cards{
+    width: 100%;
+}
+
+.card1 img{
+    width:23rem;
+}
+.card1 p{
+    font-size:1rem;
+}
+.card1 h3{
+    padding-top: 1rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+/* footer section start */
+.line-break{
+    background-color: orangered;
+    width:100%;
+    height:0.4rem;
+    margin-top:10rem;
+}
+.logo-img{
+    width:10rem;
+}
+.all-category{
+    margin-top:4rem;
+    margin-left: 3rem;
+}
+.gourmet-bottom{
+    width:25%;
+}
+.gourmet-bottom span{
+    font-size:0.7rem;
+}
+.icon{
+    margin-top:1rem;
+}
+.category{
+    width:4rem;
+    margin-top:0.5rem;
+}
+.media-body{
+    font-size: small;
+}
+.media-body h5{
+    font-weight: 100;
+}
+
+.company-list ul li a{
+    color: black;
+}
+.footer-links a{
+    text-decoration: none;
+    color:#4D4650;
+
+}
+.footer-links a:hover{
+    color:black;
+}
+/* footer section end */
+
+
+/* media query on animation slide */
+@media  (max-width:669px){
+    .content1{
+        margin: auto 0;
+        /* margin-left: 7rem; */
+    }
+    .content1 h2{
+            font-size:19px;
+            margin-top:1rem;
+        }
+    .content1 p{
+        padding: 0 1rem;
+        font-size:13px ;
+    
+    }
+    .images{
+        margin: auto ;
+      justify-content: center;
+    }
+    .images img{
+        width:3.5rem;
+        height:10rem;
+    }
+    .first-slide-content{
+        flex-direction: column;
+    }
+    }
+
+    @media (min-width:670px) and (max-width:1100px){
+        .content1{
+            margin: auto 0;
+            /* margin-left: 7rem; */
+        }
+        .content1 h2{
+                font-size:26px;
+                margin-left: 5rem;
+            }
+        .content1 p{
+            padding: 0 1rem;
+            font-size:16px ;
+            margin-left: 5rem;
+        }
+        .images{
+            margin: auto 0;
+        }
+        .images img{
+            width:5rem;
+            height:14rem;
+        }
+        
+            /* 
+      .first-slide-content{
+          align-items: center;
+      } */
+        }
+    
+    /* media query on aim pictures */
+    
+    @media (min-width:992px) and (max-width:1200px){
+.card1 img{
+    width:18rem;
+    height:8rem;
+}
+    }
+   
+    @media (max-width:991px){
+        .card1 img{
+            width:100%;
+        }
+            }
+/* 
+    .control{
+        width: 60%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .control button{
+        width: 20%;
+        float: right;
+    } */

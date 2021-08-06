@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto', sans-serif;
+ overflow-x: hidden;
+}
+
+/* upper nav bar start */
+#accordian .upper-nav .upper-nav-detail .left-upper ul li{
+    width: 25%;
+    word-wrap: break-word;
+
+}
+.upper-nav{
+    background-color: orangered;
+    color:white;
+}
+.right-upper{
+    flex: 1;
+}
+.left-upper{
+    width:90%;
+    margin:1rem 2rem;
+
+}
+.hide-nav{
+    background-color: orangered;
+    height:1.5rem;
+}
+.fa-chevron-up{
+    background-color: orangered;
+    color: white;
+
+}
+.left-upper a{
+     color:white;
+} 
+.left-upper a:hover{
+    text-decoration: none;
+    color:white;
+}
+.fa-facebook-f,.fa-twitter{
+    color:black;
+}
+.fa-facebook-f:hover,.fa-twitter:hover{
+    background-color: blue;
+    color:white;
+}
+.icon{
+    border-radius:50px;
+}
+.icon:hover{
+    background-color: blue;
+    color:white;
+}
+
+/* upper nav bar end here */
+
+/* second nvigtion section start */
+.logo{
+width:6rem;
+
+}
+
+/* left nav */
+.left{
+    width:20%;
+    text-align: center;
+}
+.right{
+    display: flex;
+} 
+
+.fa-search{
+margin-left:1rem;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+
+ }
+ .nav-link:hover{
+    color:black;
+    font-weight: bold;
+    }
+    
+/* second navigation end */
+
+/* about nav start */
+.home-link a{
+    text-decoration: none;
+    color: grey;
+    
+}
+/* about nav end */
+
+
+
+
+/* footer section start */
+.line-break{
+    background-color: orangered;
+    width:100%;
+    height:0.4rem;
+    margin-top:10rem;
+}
+.logo-img{
+    width:10rem;
+}
+.all-category{
+    margin-top:4rem;
+    margin-left: 3rem;
+}
+.gourmet-bottom{
+    width:25%;
+}
+.gourmet-bottom span{
+    font-size:0.7rem;
+}
+.icon{
+    margin-top:1rem;
+}
+.category{
+    width:4rem;
+    margin-top:0.5rem;
+}
+.media-body{
+    font-size: small;
+}
+.media-body h5{
+    font-weight: 100;
+}
+
+.company-list ul li a{
+    color: black;
+}
+.footer-links a{
+    text-decoration: none;
+    color:#4D4650;
+
+}
+.footer-links a:hover{
+    color:black;
+}
+/* footer section end */

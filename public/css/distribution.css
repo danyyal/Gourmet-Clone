@@ -1,0 +1,24 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* navbar */
+.navbar{
+    background-color: #3476a0;
+    height:3rem;
+}
+/* form section */
+.border-head{
+    border-top: 3px solid #3498DB;
+}
+.form-detail h5{
+    font-weight: bolder;
+}
+.form-detail{
+    background-color:aliceblue;
+    width:65%;
+    margin:0 auto;
+}
+.radio-buttons{
+    font-weight: bolder;
+    font-size: 1rem;
+}
